@@ -42,7 +42,7 @@ try:
     holup(1)
 
     # password input
-    username = driver.find_element_by_id("password").send_keys("secret_sauce")
+    password = driver.find_element_by_id("password").send_keys("secret_sauce")
     holup(1)
 
 
